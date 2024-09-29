@@ -1,0 +1,28 @@
+
+#For Dataset (1500 'NO' , 1500 'YES')
+
+Best Parameters: {'C': 10, 'gamma': 'auto', 'kernel': 'rbf'}
+Test Accuracy: 0.93
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.94      0.93       287
+           1       0.95      0.92      0.93       313
+
+    accuracy                           0.93       600
+   macro avg       0.93      0.93      0.93       600
+weighted avg       0.93      0.93      0.93       600
+
+#For Dataset (569 'YES'  380 'NO')
+ 
+Best Parameters: {'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}
+Test Accuracy: 0.9986824769433466
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       309
+           1       1.00      1.00      1.00       450
+
+    accuracy                           1.00       759
+   macro avg       1.00      1.00      1.00       759
+weighted avg       1.00      1.00      1.00       759

@@ -1,0 +1,26 @@
+# Image and NIfTI file processing
+nibabel==5.1.0
+opencv-python==4.8.0.76
+scikit-image==0.21.0
+
+# Machine Learning
+scikit-learn==1.3.0
+
+# GPU Support with CuPy (for CUDA acceleration)
+cupy-cuda12x  # Make sure this version matches your installed CUDA version
+
+# For plotting and visualization (optional)
+matplotlib==3.7.1
+
+# For numerical and scientific computing
+pandas==2.0.3
+
+# For feature extraction from images (if needed for GLCM features)
+mahotas
+pydicom==3.0.0
+
+SimpleITK
+tensorflow==2.17.0
+imblearn==0.0
+Keras-Preprocessing
+imgaug

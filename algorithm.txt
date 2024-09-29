@@ -1,0 +1,21 @@
+1. Import libraries for image processing, machine learning, and augmentation.
+2. Define the `augment_image` function to apply augmentations.
+3. Define feature extraction functions:
+   a. GLCM features
+   b. Intensity features
+   c. LBP features
+4. Define functions to process normal and NIfTI images:
+   a. Apply augmentation, dark filter, Gaussian blur, K-Means clustering, and histogram equalization.
+   b. Extract features (GLCM, intensity, LBP).
+5. Define `process_folder` function to load images from folders and extract features.
+6. Define `reduce_features` to apply PCA and reduce the dimensionality.
+7. Define `apply_svm_with_tuning` to perform hyperparameter tuning using GridSearchCV for SVM.
+8. Main Function Workflow:
+   a. Load images and extract features.
+   b. Split the data into training and test sets.
+   c. Impute missing values and standardize the features.
+   d. Reduce feature dimensions using PCA.
+   e. Apply SVM with hyperparameter tuning and train the model.
+   f. Evaluate the model on the test set.
+9. Configure GPU memory growth if available for TensorFlow.
+10. Execute the `main` function if the script is run directly.
